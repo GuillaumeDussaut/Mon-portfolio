@@ -1,0 +1,53 @@
+{
+    "basicInfo": {
+      "name": "Dussaut Guillaume",
+      "titles": "Front-end Developer",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/GuillaumeDussaut?tab=repositories",
+          "class": "fa-brands fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/kuroslucifu/",
+          "class": "fa-brands fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "fa-brands fa-html5",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "fa-brands fa-css3-alt",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "fa-brands fa-square-js",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "fa-brands fa-sass",
+          "level": "75"
+        },
+        {
+          "name": "PHP",
+          "class": "fa-brands fa-php",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "fa-brands fa-react",
+          "level": "60"
+        }
+      ]
+    }
+  }

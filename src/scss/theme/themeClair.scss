@@ -1,0 +1,105 @@
+.default-theme {
+  // header
+  header {
+    background: rgba(235, 216, 156, 0.959);
+    .presentation {
+      .headerLogoOrdi {
+        color: rgb(50, 41, 65);
+      }
+      h1 {
+        color: rgb(50, 41, 65);
+      }
+      h2 {
+        color: rgb(50, 41, 65);
+      }
+    }
+  }
+  // a propos
+  .a-propos-container {
+    background: white;
+    h1 {
+      color: black;
+    }
+    .presentation {
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.637);
+      .barre-top {
+        background: rgb(255, 234, 194);
+      }
+    }
+  }
+  // projets
+  .projetsContainer {
+    background: rgba(235, 216, 156, 0.959);
+    .projet {
+      h2 {
+        color: white;
+        background: rgb(54, 51, 58);
+      }
+      #date {
+        background: rgba(34, 31, 31, 0.541);
+        color: white;
+      }
+    }
+  }
+  // modal projets
+  .modal {
+    background: rgba(0, 0, 0, 0.452);
+    .modal-content {
+      box-shadow: 2px 2px 12px black;
+      background: white;
+      .slider {
+        box-shadow: 2px 2px 12px black;
+        .slider-container {
+          .active {
+            background-color: #333;
+          }
+          .prev,
+          .next {
+            background: rgba(0, 0, 0, 0.507);
+            color: white;
+          }
+          .prev {
+            left: 0px;
+          }
+          .next {
+            right: 0px;
+          }
+        }
+        .pagination {
+          span {
+            background-color: #888;
+            &.active {
+              background-color: #333;
+              border: 1px solid #333;
+            }
+          }
+        }
+      }
+    }
+  }
+  // skills
+  .skillsContainer {
+    background: #1f1f1f;
+    h1 {
+      color: white;
+    }
+    .skills {
+      .skillItem {
+        color: white;
+        background: #3a3a3a;
+      }
+    }
+  }
+  // experience
+.containerTimeline{
+  background: rgba(235, 216, 156, 0.959);
+  h1{
+  }
+  .timelinePrincipale{
+    .experience-icon{
+
+    }
+  }
+}
+}
+

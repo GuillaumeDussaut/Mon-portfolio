@@ -1,0 +1,130 @@
+{
+    "infos_perso":{
+        "descriptionTitre":"Hello everyone!",
+        "description":"My name is Guillaume Dussaut, a junior web developer specializing in the front-end! I primarily work with frameworks like React. Therefore, I am familiar with development languages such as HTML, CSS, and JavaScript. I invite you to take a look at my Github, LinkedIn, and Twitter profiles, which you can find on this portfolio! (I've also displayed a few projects a bit further down.)",
+        "section_name":{
+            "about":"About me",
+            "projets":"projects",
+            "competences":"skills",
+            "experience":"experience"
+        }
+    },
+    "projects":[
+        {
+            "title":"PrintIt",
+            "startDate":"Mai 2023",
+            "description":"Print It is project 5 of the web integrator training at Openclassrooms. It is a JavaScript project.",
+            "images":[
+                "./images/projet1/printIt.png",
+                "./images/projet1/printit2.png",
+                "./images/projet1/printit3.png"
+            ],
+            "url":"https://guillaumedussaut.github.io/Projet-5-Premiers-pas-sur-le-langage-JavaScript/",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-js",
+                    "name": "Javascript"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ]
+        },
+        {
+            "title":"ArgentBank",
+            "startDate":"Octobre 2023",
+            "description":"ArgentBank est le projet 11 de la formation Openclassrooms. Il s'agit d'une intégration d'un site static en html css vers une application web en React",
+            "images":[
+                "./images/projet2/argentbank.png",
+                "./images/projet2/argentbank2.png",
+                "./images/projet2/argentbank3.png",
+                "./images/projet2/argentbank4.png"
+            ],
+            "url":"url du projet 1",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-react",
+                    "name": "react"
+                },
+                {
+                    "class": "fa-brands fa-sass",
+                    "name": "sass"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ] 
+        },
+        {
+            "title":"Donjon Hunter",
+            "startDate":"Septembre 2023",
+            "description":"description du projet 3",
+            "images":[
+                "./images/projet3/donjonhunter.png",
+                "./images/projet3/donjonhunter2.png"
+            ],
+            "url":"url du projet 1",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-react",
+                    "name": "react"
+                },
+                {
+                    "class": "fa-brands fa-sass",
+                    "name": "sass"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+          "company": "Openclassrooms",
+          "title": "Prep' Full stack",
+          "years": "2021",
+          "mainTech": [
+            "PHP / SQL"
+          ],
+          "description":"formation prépa au dévelooppement full stack chez Openclassrooms.",
+          "technologies": [
+            "PHP",
+            "SQL",
+            "HTML",
+            "CSS"
+          ]
+        },
+        {
+            "company": "Openclassrooms",
+            "title": "Intégrateur Web",
+            "years": "2023",
+            "mainTech": [
+              "React"
+            ],
+            "description":"Formation d'intégrateur web ches Openclassrooms",
+            "technologies": [
+              "HTML",
+              "CSS",
+              "React",
+              "JavaScript",
+              "Sass"
+            ]
+          }
+        ]
+}

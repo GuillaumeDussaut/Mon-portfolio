@@ -1,0 +1,118 @@
+.dark-theme {
+  // header
+  header {
+    background: rgba(73, 73, 73, 0.959);
+    .presentation {
+      .headerLogoOrdi {
+        color: white;
+      }
+      h1 {
+        color: white;
+      }
+      h2 {
+        color: white;
+      }
+    }
+  }
+  // a propos
+  .a-propos-container {
+    background: darkgrey;
+    h1 {
+      color: white;
+    }
+
+    .presentation {
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.637);
+      .barre-top {
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.274);
+        background: rgb(78, 78, 78);
+      }
+    }
+  }
+  // projets
+  .projetsContainer {
+    background: rgba(73, 73, 73, 0.959);
+    h1 {
+      color: white;
+    }
+    .projet {
+      border: 1px solid rgba(0, 0, 0, 0.432);
+      h2 {
+        color: white;
+        background: rgb(54, 51, 58);
+      }
+      #date {
+        background: rgba(34, 31, 31, 0.541);
+        color: white;
+      }
+    }
+  }
+  // modal projets
+  .modal {
+    .modal-content {
+      box-shadow: 2px 2px 12px black;
+      background: #1f1f1f;
+      span {
+        color: white;
+      }
+      .Titre {
+        color:white;
+        a{
+          text-decoration:none;
+          color:white;
+        }
+      }
+      .slider {
+        box-shadow: 2px 2px 12px black;
+        img {
+          width: 100%;
+          height: 300px;
+        }
+        .pagination {
+          span {
+            background-color: #888;
+            cursor: pointer;
+            position: static;
+            &.active {
+              background-color: white;
+              border: 1px solid white;
+            }
+          }
+        }
+      }
+      .descriptionProjet {
+        background: transparent;
+        color: white;
+      }
+    }
+  }
+  // skills
+  .skillsContainer {
+    background: #1f1f1f;
+    h1 {
+      color: white;
+    }
+    .skills {
+      .skillItem {
+        color: white;
+        background: #3a3a3a;
+      }
+    }
+  }
+  // experience
+.containerTimeline{
+  background: rgba(73, 73, 73, 0.959);
+  h1{
+    color:white;
+  }
+  .iconStyle{
+    background:red;
+  }
+  .timelinePrincipale{
+    .experience-icon{
+
+    }
+  }
+}
+}
+
