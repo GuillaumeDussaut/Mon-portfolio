@@ -5,12 +5,13 @@ export async function fetchBasicData() {
       throw new Error('erreur');
     }
     const data = await response.json();
-    return data;
+    return data;   
   } catch (error) {
     console.error('Error loading BasicData.json:', error);
     return null;
   }
 }
+
 export async function fetchDataLangFR() {
   try {
     const response = await fetch(`/dataLangFrancais.json`);

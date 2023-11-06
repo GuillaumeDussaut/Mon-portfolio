@@ -469,6 +469,9 @@ header {
     margin-bottom:100px
   }
   .timelinePrincipale{
+    .vertical-timeline-element--work{
+      
+    }
     .experience-icon{
       width: 100%;
       height: 100%;
@@ -476,9 +479,6 @@ header {
       justify-content: center;
       align-items: center;
       font-size: 40px;
-    }
-    .vertical-timeline-element--work{
-
     }
   }
 }

@@ -64,8 +64,7 @@ export default function Apropos({ data }) {
     }
   }, []);
   return (
-    <>
-      <div className="a-propos-container">
+      <section className="a-propos-container">
         <h1 id="APropos">{data?.infos_perso?.section_name?.about}</h1>
         <div className="photoProfil" ref={cardRef}>
           <img src={profilIMG} alt="profil img" />
@@ -86,8 +85,7 @@ export default function Apropos({ data }) {
             )}
           </div>
         </div>
-      </div>
-    </>
+      </section>
   );
 }
 

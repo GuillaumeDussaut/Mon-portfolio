@@ -16,8 +16,7 @@ export default function Skills({data}) {
   }, []);
 
   return (
-    <>
-      <div className="skillsContainer">
+      <section className="skillsContainer">
         <h1>{data?.infos_perso?.section_name?.competences}</h1>
         <div className="skills">
           {skills.map((skill, index) => (
@@ -27,7 +26,6 @@ export default function Skills({data}) {
             </div>
           ))}
         </div>
-      </div>
-    </>
+      </section>
   );
 }

@@ -9,7 +9,7 @@ import {
   fetchBasicData,
   fetchDataLangFR,
   fetchDataLangEN,
-} from "./data/DataProvider";
+} from "./data/DataProvider.js";
 import { useLanguage } from "./data/LanguageContext"; 
 
 

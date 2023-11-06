@@ -22,7 +22,7 @@ function Projets({  data, projetsData }) {
   };
   return (
     <>
-    <div className="projetsContainer">
+    <section className="projetsContainer">
     <h1>{data?.infos_perso?.section_name?.projets}</h1>
       {projetsData && projetsData.projects.map((project, index) => (
         <div
@@ -35,7 +35,7 @@ function Projets({  data, projetsData }) {
           <p id="date">{project.startDate}</p>
         </div>
       ))}
-    </div>
+    </section>
     {isModalOpen && (
         <Modal project={selectedProject} onClose={closeModal} />
       )}
