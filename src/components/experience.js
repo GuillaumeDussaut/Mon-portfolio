@@ -17,6 +17,7 @@ const MyVerticalTimeline = ({ data }) => {
       setIsInView(false);
     }
   }, [inView]);
+  
 
   return (
     <section id="section-experience" className="containerTimeline" ref={ref}>
