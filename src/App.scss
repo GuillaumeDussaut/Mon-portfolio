@@ -455,6 +455,7 @@ header {
         height: 5px;
         text-align: center;
         padding-top: 20px;
+        position:absolute;
         span {
           display: inline-block;
           width: 10px;
@@ -491,11 +492,9 @@ header {
 @media screen and (min-width: 320px) and (max-width: 720px) {
   .modal {
     .modal-content {
-      border: 1px solid green;
       width: 90%;
-      height: 600px;
+      height: auto;
       .descriptionProjet {
-        border: 1px solid red;
         bottom: 0px;
         top: 50px;
       }
