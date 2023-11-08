@@ -9,9 +9,7 @@ const MyVerticalTimeline = ({ data }) => {
 
   useEffect(() => {
     if (inView) {
-      console.log("Utilisateur est arrivé sur la section Experience");
     } else {
-      console.log("Utilisateur a quitté la section Experience");
     }
   }, [inView]);
 
