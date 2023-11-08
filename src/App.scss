@@ -499,10 +499,13 @@ header {
 @media screen and (min-width: 320px) and (max-width: 720px){
   .modal{
     .modal-content{
+      border:1px solid green;
       width: 90%;
-      height: 400px;
+      height: 600px;
       .descriptionProjet{
+        border:1px solid red;
         bottom:0px;
+        top:50px;
       }
     }
   }
