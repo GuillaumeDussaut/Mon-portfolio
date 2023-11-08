@@ -400,10 +400,7 @@ header {
       font-size: 30px;
     }
     .Titre {
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+      text-align:center;
       a {
         text-decoration: none;
         color: black;
@@ -414,8 +411,6 @@ header {
       height: 400px;
       box-shadow: 2px 2px 12px black;
       border-radius: 15px;
-      position: absolute;
-      top: 100px;
       overflow: hidden;
       .slider-container {
         display: flex;
@@ -455,7 +450,6 @@ header {
         height: 5px;
         text-align: center;
         padding-top: 20px;
-        position: absolute;
         span {
           display: inline-block;
           width: 10px;
