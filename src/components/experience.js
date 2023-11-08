@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "../App.scss";
@@ -6,23 +6,19 @@ import { useInView } from 'react-intersection-observer';
 
 const MyVerticalTimeline = ({ data }) => {
   const { ref, inView } = useInView();
-  const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
     if (inView) {
       console.log("Utilisateur est arrivé sur la section Experience");
-      setIsInView(true);
     } else {
       console.log("Utilisateur a quitté la section Experience");
-      setIsInView(false);
     }
   }, [inView]);
-  
 
   return (
     <section id="section-experience" className="containerTimeline" ref={ref}>
       <h1>{data?.infos_perso?.section_name?.experience}</h1>
-      <VerticalTimeline className={`timelinePrincipale `}>
+      <VerticalTimeline>
         {data &&
           data.experience.map((data, index) => (
             <VerticalTimelineElement

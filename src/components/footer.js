@@ -1,18 +1,19 @@
 import React from "react";
+import '../App.scss';
 
-import '../App.scss'
+export default function Footer({ data }) {
+  const socialInfo = data?.basicInfo?.social;
 
-export default function Footer(){
-    return(
-        <>
-        <footer>
-            <a href="https://www.instagram.com/kuroslucifu/" target="blank"> 
-            <i className="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://github.com/GuillaumeDussaut" target="blank">
-            <i className="fa-brands fa-github"></i>
-            </a>
-        </footer>
-        </>
-    )
+  return (
+    <footer>
+      {socialInfo && socialInfo.map((item, index) => (
+        <a href={item.url} target="_blank" rel="noopener noreferrer" key={index}>
+          <i className={item.class}></i>
+        </a>
+      ))}
+    </footer>
+  );
 }
+
+
+

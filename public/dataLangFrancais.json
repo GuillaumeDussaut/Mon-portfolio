@@ -68,7 +68,7 @@
         {
             "title":"Donjon Hunter",
             "startDate":"Septembre 2023",
-            "description":"description du projet 3",
+            "description":"Ce projet est un projet personnel en React.",
             "images":[
                 "./images/projet3/donjonhunter.png",
                 "./images/projet3/donjonhunter2.png"

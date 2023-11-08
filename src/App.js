@@ -53,7 +53,7 @@ function App() {
       <Projets projetsData={projetsData} data={langData}/>
       <Skills data={langData}/>
       <Experience data={langData}/>
-      <Footer />
+      <Footer data={data}/>
     </div>
   );
 }

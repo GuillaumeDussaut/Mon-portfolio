@@ -38,14 +38,14 @@
         {
             "title":"ArgentBank",
             "startDate":"Octobre 2023",
-            "description":"ArgentBank est le projet 11 de la formation Openclassrooms. Il s'agit d'une intégration d'un site static en html css vers une application web en React",
+            "description":"ArgentBank is project 11 of the Openclassrooms training program. It involves transforming a static website built with HTML and CSS into a web application using React.",
             "images":[
                 "./images/projet2/argentbank.png",
                 "./images/projet2/argentbank2.png",
                 "./images/projet2/argentbank3.png",
                 "./images/projet2/argentbank4.png"
             ],
-            "url":"url du projet 1",
+            "url":"https://github.com/GuillaumeDussaut/Projet-11-Implementez-le-front-end-dune-application-bancaire",
             "technologies": [
                 {
                     "class": "fa-brands fa-react",
@@ -68,7 +68,7 @@
         {
             "title":"Donjon Hunter",
             "startDate":"Septembre 2023",
-            "description":"description du projet 3",
+            "description":"This project is a personal project in React.",
             "images":[
                 "./images/projet3/donjonhunter.png",
                 "./images/projet3/donjonhunter2.png"
@@ -102,7 +102,7 @@
           "mainTech": [
             "PHP / SQL"
           ],
-          "description":"formation prépa au dévelooppement full stack chez Openclassrooms.",
+          "description":"Preparation course for full-stack development at Openclassrooms.",
           "technologies": [
             "PHP",
             "SQL",
@@ -117,7 +117,7 @@
             "mainTech": [
               "React"
             ],
-            "description":"Formation d'intégrateur web ches Openclassrooms",
+            "description":"Web Developer training at Openclassrooms.",
             "technologies": [
               "HTML",
               "CSS",
