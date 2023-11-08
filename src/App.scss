@@ -4,6 +4,7 @@
 }
 body {
   min-width: 320px;
+  min-height: 700px;
 }
 // header
 header {
@@ -384,7 +385,7 @@ header {
   z-index: 1;
   .modal-content{
       box-shadow: 2px 2px 12px black;
-      width: 700px;
+      width: 50%;
       height: 800px;
       border-radius:20px;
       background:white;
