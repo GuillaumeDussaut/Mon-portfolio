@@ -1,0 +1,130 @@
+{
+    "infos_perso":{
+        "descriptionTitre":"Bonjour à tous!",
+        "description":"Je m'appelle Guillaume Dussaut, développeur web junior spécialisé dans le front! Je travaille essentiellement sur des frameworks tels que React. Je suis donc familier avec les langages de développement tels que HTML CSS, JS. Je vous invite à faire un tour sur mon profil Github, LinkedIn, Twitter que vous pourrez retrouver sur ce portfolio! (Je vous ai aussi affiché quelques projets un peu plus bas)",
+        "section_name":{
+            "about":"A propos de moi",
+            "projets":"projets",
+            "competences":"compétences",
+            "experience":"experience"
+        }
+    },
+    "projects":[
+        {
+            "title":"PrintIt",
+            "startDate":"Mai 2023",
+            "description":"Print It est le projet 5 de la formation d'intégrateur web chez Openclassrooms. Il s'agit d'un projet en Javascript ",
+            "images":[
+                "./images/projet1/printIt.png",
+                "./images/projet1/printit2.png",
+                "./images/projet1/printit3.png"
+            ],
+            "url":"https://github.com/GuillaumeDussaut/Projet-5-Premiers-pas-sur-le-langage-JavaScript",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-js",
+                    "name": "Javascript"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ]
+        },
+        {
+            "title":"ArgentBank",
+            "startDate":"Octobre 2023",
+            "description":"ArgentBank est le projet 11 de la formation Openclassrooms. Il s'agit d'une intégration d'un site static en html css vers une application web en React",
+            "images":[
+                "./images/projet2/argentbank.png",
+                "./images/projet2/argentbank2.png",
+                "./images/projet2/argentbank3.png",
+                "./images/projet2/argentbank4.png"
+            ],
+            "url":"https://github.com/GuillaumeDussaut/Projet-11-Implementez-le-front-end-dune-application-bancaire",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-react",
+                    "name": "react"
+                },
+                {
+                    "class": "fa-brands fa-sass",
+                    "name": "sass"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ] 
+        },
+        {
+            "title":"Donjon Hunter",
+            "startDate":"Septembre 2023",
+            "description":"Ce projet est un projet personnel en React.",
+            "images":[
+                "./images/projet3/donjonhunter.png",
+                "./images/projet3/donjonhunter2.png"
+            ],
+            "url":"url du projet 1",
+            "technologies": [
+                {
+                    "class": "fa-brands fa-react",
+                    "name": "react"
+                },
+                {
+                    "class": "fa-brands fa-sass",
+                    "name": "sass"
+                },
+                {
+                    "class": "fa-brands fa-html5",
+                    "name": "html"
+                },
+                {
+                    "class": "fa-brands fa-css3-alt",
+                    "name": "css"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+          "company": "Openclassrooms",
+          "title": "Prep' Full stack",
+          "years": "2021",
+          "mainTech": [
+            "PHP / SQL"
+          ],
+          "description":"formation prépa au dévelooppement full stack chez Openclassrooms.",
+          "technologies": [
+            "PHP",
+            "SQL",
+            "HTML",
+            "CSS"
+          ]
+        },
+        {
+            "company": "Openclassrooms",
+            "title": "Intégrateur Web",
+            "years": "2023",
+            "mainTech": [
+              "React"
+            ],
+            "description":"Formation d'intégrateur web ches Openclassrooms",
+            "technologies": [
+              "HTML",
+              "CSS",
+              "React",
+              "JavaScript",
+              "Sass"
+            ]
+          }
+        ]
+}
