@@ -12,6 +12,16 @@
           "name": "instagram",
           "url": "https://www.instagram.com/kuroslucifu/",
           "class": "fa-brands fa-instagram"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/SoskitoM",
+          "class": "fa-brands fa-x-twitter"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://fr.linkedin.com/in/guillaume-dussaut-57957a18b",
+          "class": "fa-brands fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
