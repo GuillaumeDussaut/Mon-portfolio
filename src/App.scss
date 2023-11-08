@@ -365,7 +365,7 @@ header {
       height: auto;
     }
     .projet:hover{
-      display:none;
+      animation:none;
     }
   }  
 }
@@ -500,6 +500,7 @@ header {
     .modal-content{
       width: 90%;
       height: auto;
+
     }
   }
 }
