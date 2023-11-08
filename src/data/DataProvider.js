@@ -1,6 +1,6 @@
 export async function fetchBasicData() {
   try {
-    const response = await fetch('/BasicData.json');
+    const response = await fetch(`${process.env.PUBLIC_URL}/BasicData.json`);
     if (!response.ok) {
       throw new Error('erreur');
     }
