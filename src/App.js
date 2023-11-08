@@ -32,7 +32,7 @@ function App() {
       setLangData(langData);
 
       const projetsDataResponse = await fetch(
-        currentLang === "Francais" ? "./mon-portfolio/dataLangFrancais.json" : "./mon-portfolio/dataLangEnglish.json"
+        currentLang === "Francais" ? "./dataLangFrancais.json" : "./dataLangEnglish.json"
       );
 
       if (projetsDataResponse.ok) {
