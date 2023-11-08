@@ -359,9 +359,10 @@ header {
 }
 @media screen and (min-width: 320px) and (max-width: 720px){
   .projetsContainer{
-    height: 100vh;
+    height: auto;
     .projet{
       width: 90%;
+      height: auto;
     }
     .projet:hover{
       display:none;
@@ -494,7 +495,14 @@ header {
       }
   }
 }
-
+@media screen and (min-width: 320px) and (max-width: 720px){
+  .modal{
+    .modal-content{
+      width: 90%;
+      height: auto;
+    }
+  }
+}
 // skills
 .skillsContainer{
   width: 100%;
