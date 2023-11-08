@@ -1,6 +1,6 @@
 export async function fetchBasicData() {
   try {
-    const response = await fetch('/mon-portfolio/BasicData.json');
+    const response = await fetch('./BasicData.json');
     if (!response.ok) {
       throw new Error('erreur');
     }
@@ -14,7 +14,7 @@ export async function fetchBasicData() {
 
 export async function fetchDataLangFR() {
   try {
-    const response = await fetch(`/mon-portfolio/dataLangFrancais.json`);
+    const response = await fetch(`./dataLangFrancais.json`);
     if (!response.ok) {
       throw new Error(`erreur`);
     }
@@ -27,7 +27,7 @@ export async function fetchDataLangFR() {
 }
 export async function fetchDataLangEN() {
   try {
-    const response = await fetch(`/mon-portfolio/dataLangEnglish.json`);
+    const response = await fetch(`./dataLangEnglish.json`);
     if (!response.ok) {
       throw new Error(`erreur`);
     }
