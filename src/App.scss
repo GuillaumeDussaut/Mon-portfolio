@@ -421,7 +421,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        position: relative;
         width: 100%;
         overflow: hidden;
         img {
@@ -475,11 +474,8 @@ header {
     }
     .descriptionProjet {
       background: white;
-      position: absolute;
-      left: 20px;
-      right: 20px;
-      top: 500px;
-      bottom: 40px;
+      width: 90%;
+      height: auto;
       border-radius: 15px;
       padding: 15px;
       .technologies {
