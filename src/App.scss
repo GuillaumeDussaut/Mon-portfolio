@@ -363,6 +363,7 @@ header {
     .projet{
       width: 90%;
       height: 200px;
+      margin:5px;
     }
     .projet:hover{
       animation:none;
@@ -500,7 +501,9 @@ header {
     .modal-content{
       width: 90%;
       height: 400px;
-
+      .descriptionProjet{
+        bottom:0px;
+      }
     }
   }
 }
