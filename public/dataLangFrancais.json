@@ -73,7 +73,7 @@
                 "./images/projet3/donjonhunter.png",
                 "./images/projet3/donjonhunter2.png"
             ],
-            "url":"url du projet 1",
+            "url":"https://github.com/GuillaumeDussaut/Donjon-Hunter",
             "technologies": [
                 {
                     "class": "fa-brands fa-react",
