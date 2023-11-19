@@ -149,7 +149,8 @@
             "SQL",
             "HTML",
             "CSS"
-          ]
+          ],
+          "icon" : "fa-solid fa-graduation-cap"
         },
         {
             "company": "Openclassrooms",
@@ -165,7 +166,8 @@
               "React",
               "JavaScript",
               "Sass"
-            ]
+            ],
+            "icon" : "fa-solid fa-graduation-cap"
           }
         ]
 }
