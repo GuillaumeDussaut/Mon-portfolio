@@ -172,7 +172,7 @@
               "JavaScript",
               "Sass"
             ],
-            "icon": "<i className=\"fa-solid fa-graduation-cap experience-icon\"></i>"
+            "icon": "fa-graduation-cap"
           }
         ]
 }
