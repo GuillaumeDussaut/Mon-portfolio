@@ -137,11 +137,11 @@
             ]
         },
         {
-          "company": "Openclassrooms",
-          "title": "Prep' Full stack",
-          "years": "2021",
-          "mainTech": [
-            "PHP / SQL"
+            "company": "Openclassrooms",
+            "title": "Prep' Full stack",
+            "years": "2021",
+            "mainTech": [
+                "PHP / SQL"
           ],
           "description":"formation prépa au dévelooppement full stack chez Openclassrooms.",
           "technologies": [
