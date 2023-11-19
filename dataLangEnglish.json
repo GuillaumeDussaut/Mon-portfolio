@@ -100,9 +100,9 @@
             "title" : "barista",
             "years" : "2016 - 1017",
             "mainTech" : [
-                "Latte art",
-                "préparations à base de café",
-                "gestion d'une salle"
+                "Latte art, ",
+                "préparations à base de café, ",
+                "gestion d'une salle, "
             ]
         },
         {
@@ -110,10 +110,10 @@
             "title" : "serveur Barman",
             "years" : "2017 - 1019",
             "mainTech" : [
-                "vente de vins",
-                "conseils client",
-                "gestion d'une salle",
-                "gestion des commandes"
+                "vente de vins, ",
+                "conseils client, ",
+                "gestion d'une salle, ",
+                "gestion des commandes, "
             ]
         },
         {
@@ -121,19 +121,19 @@
             "title" : "serveur Barman",
             "years" : "2019 - 1020",
             "mainTech" : [
-                "aide en cuisine",
-                "préparations des boissons",
-                "gestion d'une salle"
+                "aide en cuisine, ",
+                "préparations des boissons, ",
+                "gestion d'une salle, "
             ]
         },
         {
             "company": "Au bureau",
             "title" : "Barman",
-            "years" : "2023 - 1023",
+            "years" : "2023 - 2023",
             "mainTech" : [
-                "gestion du bar",
-                "préparations des cocktails",
-                "entretient de l'espace de travail"
+                "gestion du bar, ",
+                "préparations des cocktails, ",
+                "entretient de l'espace de travail, "
             ]
         },
         {
