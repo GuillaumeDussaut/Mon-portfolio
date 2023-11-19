@@ -100,9 +100,9 @@
             "title" : "barista",
             "years" : "2016 - 2017",
             "mainTech" : [
-                "Latte art, ",
-                "préparations à base de café, ",
-                "gestion d'une salle, "
+                "Latte art,",
+                "coffee-based preparations,",
+                "management of a dining area,"
             ],
             "icon": "fa-briefcase"
         },
@@ -111,10 +111,10 @@
             "title" : "serveur Barman",
             "years" : "2017 - 2019",
             "mainTech" : [
-                "vente de vins, ",
-                "conseils client, ",
-                "gestion d'une salle, ",
-                "gestion des commandes, "
+                "Wine sales,",
+                "customer advice,",
+                "management of a dining area,",
+                "order management,"
             ],
             "icon": "fa-briefcase"
         },
@@ -123,9 +123,9 @@
             "title" : "serveur Barman",
             "years" : "2019 - 2020",
             "mainTech" : [
-                "aide en cuisine, ",
-                "préparations des boissons, ",
-                "gestion d'une salle, "
+                "Kitchen assistance,",
+                "beverage preparation,",
+                "management of a dining area."
             ],
             "icon": "fa-briefcase"
         },
@@ -134,11 +134,11 @@
             "title" : "Barman",
             "years" : "2021 - 2022",
             "mainTech" : [
-                "gestion du bar, ",
-                "préparations des cocktails, ",
-                "entretient de l'espace de travail, "
+                "bar management,",
+                "cocktail preparation,",
+                "workspace maintenance"
             ],
-            "description":"Barman au Arts cades, à Beaumontois en Périgord. Bar Brasserie de campagne situé dans le périgord.",
+            "description": "Bartender at Arts Cades in Beaumontois en Périgord. Country bar and brasserie located in Périgord.",
             "icon": "fa-briefcase"
         },
         {
@@ -146,11 +146,11 @@
             "title" : "Barman",
             "years" : "2023 - 2023",
             "mainTech" : [
-                "gestion du bar, ",
-                "préparations des cocktails, ",
-                "entretient de l'espace de travail, "
+                "bar management,",
+                "cocktail preparation,",
+                "workspace maintenance"
             ],
-            "description":"Barman au Bureau à Fenouillet, près de Toulouse. Bar Brasserie d'envoie avec une large carte de cocktails.",
+            "description": "Bartender at Le Bureau in Fenouillet, near Toulouse. Vibrant bar and brasserie with an extensive cocktail menu.",
             "icon": "fa-briefcase"
         },
         {
@@ -160,7 +160,7 @@
             "mainTech": [
                 "PHP / SQL"
           ],
-          "description":"formation prépa au dévelooppement full stack chez Openclassrooms.",
+          "description":"Preparation for full-stack development training at OpenClassrooms.",
           "technologies": [
             "PHP",
             "SQL",
@@ -176,7 +176,7 @@
             "mainTech": [
               "React"
             ],
-            "description":"Formation d'intégrateur web chez Openclassrooms",
+            "description":"Web Developer training at OpenClassrooms.",
             "technologies": [
               "HTML",
               "CSS",
