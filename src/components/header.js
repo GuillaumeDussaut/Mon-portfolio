@@ -16,6 +16,7 @@ export default function Header(props) {
     <header>
       <a
         href={data ? data.basicInfo.social[0].url : ""}
+        target="_blank"
         className="github-corner"
         aria-label="View source on GitHub"
       >
