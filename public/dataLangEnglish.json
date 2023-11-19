@@ -98,43 +98,48 @@
         {
             "company": "Koffie",
             "title" : "barista",
-            "years" : "2016 - 1017",
+            "years" : "2016 - 2017",
             "mainTech" : [
-                "Latte art",
-                "préparations à base de café",
-                "gestion d'une salle"
-            ]
+                "Latte art, ",
+                "préparations à base de café, ",
+                "gestion d'une salle, "
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "six en vins",
             "title" : "serveur Barman",
-            "years" : "2017 - 1019",
+            "years" : "2017 - 2019",
             "mainTech" : [
-                "vente de vins",
-                "conseils client",
-                "gestion d'une salle",
-                "gestion des commandes"
-            ]
+                "vente de vins, ",
+                "conseils client, ",
+                "gestion d'une salle, ",
+                "gestion des commandes, "
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "Mets et vins",
             "title" : "serveur Barman",
-            "years" : "2019 - 1020",
+            "years" : "2019 - 2020",
             "mainTech" : [
-                "aide en cuisine",
-                "préparations des boissons",
-                "gestion d'une salle"
-            ]
+                "aide en cuisine, ",
+                "préparations des boissons, ",
+                "gestion d'une salle, "
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "Au bureau",
             "title" : "Barman",
-            "years" : "2023 - 1023",
+            "years" : "2023 - 2023",
             "mainTech" : [
-                "gestion du bar",
-                "préparations des cocktails",
-                "entretient de l'espace de travail"
-            ]
+                "gestion du bar, ",
+                "préparations des cocktails, ",
+                "entretient de l'espace de travail, "
+            ],
+            "description":"Barman au Bureau à Fenouillet, près de Toulouse. Bar Brasserie d'envoie avec une large carte de cocktails.",
+            "icon": "fa-briefcase"
         },
         {
             "company": "Openclassrooms",
@@ -149,7 +154,8 @@
             "SQL",
             "HTML",
             "CSS"
-          ]
+          ],
+          "icon": "fa-graduation-cap"
         },
         {
             "company": "Openclassrooms",
@@ -165,7 +171,8 @@
               "React",
               "JavaScript",
               "Sass"
-            ]
+            ],
+            "icon": "fa-graduation-cap"
           }
         ]
 }

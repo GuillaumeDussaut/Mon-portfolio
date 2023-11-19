@@ -29,7 +29,7 @@ const MyVerticalTimeline = ({ data }) => {
                 boxShadow: "2px 2px 12px rgba(0, 0, 0, 0.541)",
                 border: "4px solid white",
               }}
-              icon={<i className="fa-solid fa-graduation-cap experience-icon"></i>}
+              icon={<i className={`fas ${data.icon} experience-icon`}></i>}
             >
               <div className="infosContainer">
                 <h3 className="vertical-timeline-element-title">{data.title}</h3>
