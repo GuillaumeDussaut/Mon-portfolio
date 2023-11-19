@@ -130,6 +130,18 @@
             "icon": "fa-briefcase"
         },
         {
+            "company": "Les Arts cades",
+            "title" : "Barman",
+            "years" : "2021 - 2022",
+            "mainTech" : [
+                "gestion du bar, ",
+                "préparations des cocktails, ",
+                "entretient de l'espace de travail, "
+            ],
+            "description":"Barman au Arts cades, à Beaumontois en Périgord. Bar Brasserie de campagne situé dans le périgord.",
+            "icon": "fa-briefcase"
+        },
+        {
             "company": "Au bureau",
             "title" : "Barman",
             "years" : "2023 - 2023",
