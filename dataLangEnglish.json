@@ -103,7 +103,8 @@
                 "Latte art, ",
                 "préparations à base de café, ",
                 "gestion d'une salle, "
-            ]
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "six en vins",
@@ -114,7 +115,8 @@
                 "conseils client, ",
                 "gestion d'une salle, ",
                 "gestion des commandes, "
-            ]
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "Mets et vins",
@@ -124,7 +126,8 @@
                 "aide en cuisine, ",
                 "préparations des boissons, ",
                 "gestion d'une salle, "
-            ]
+            ],
+            "icon": "fa-briefcase"
         },
         {
             "company": "Au bureau",
@@ -134,7 +137,9 @@
                 "gestion du bar, ",
                 "préparations des cocktails, ",
                 "entretient de l'espace de travail, "
-            ]
+            ],
+            "description":"Barman au Bureau à Fenouillet, près de Toulouse. Bar Brasserie d'envoie avec une large carte de cocktails.",
+            "icon": "fa-briefcase"
         },
         {
             "company": "Openclassrooms",
@@ -150,7 +155,7 @@
             "HTML",
             "CSS"
           ],
-          "icon" : "fa-solid fa-graduation-cap"
+          "icon": "fa-graduation-cap"
         },
         {
             "company": "Openclassrooms",
@@ -167,7 +172,7 @@
               "JavaScript",
               "Sass"
             ],
-            "icon" : "fa-solid fa-graduation-cap"
+            "icon": "fa-graduation-cap"
           }
         ]
 }
